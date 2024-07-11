@@ -1,0 +1,38 @@
+.hero{
+    max-width: 100%;
+    background: url('../../assets/lmd_logo.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 470px;
+    top: 200px;
+
+}
+
+.text-container{
+    position: absolute;
+    bottom: 500px;
+    line-height: 77px;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    text-decoration: 5px solid black;
+    
+}
+
+svg {
+    position: relative;
+    width: 1680px;
+    height: 590px;
+    top: 449px;
+}
