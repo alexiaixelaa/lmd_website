@@ -12,6 +12,7 @@ nav{
     display: flex;
     padding: 4px 0;
     z-index: 10;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .logo {
@@ -31,8 +32,7 @@ nav ul {
     position: relative;
     
 }
-nav li{
-   
+nav li{ 
     padding-right: 50px;
     font-size: 30px;
     display: inline;
