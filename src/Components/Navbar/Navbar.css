@@ -38,3 +38,24 @@ nav li{
     display: inline;
     list-style: none;
 }
+
+nav li:hover a{
+    color: #92ADA4;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #92ADA4;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before {
+    visibility: visible;
+    width: 100%;
+}
