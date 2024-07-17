@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import './Hero.css'
+import React from 'react';
+import './Hero.css';
 
 
 const Hero = () => {
@@ -58,7 +58,6 @@ const Hero = () => {
             <p>Aquí en nuestra guardería entendemos la importancia de crear un espacio seguro para que sus hijos crezcan; un lugar donde puedan jugar, comer, socializar y aprender con otros niños. ¡Nuestro enfoque está en formar a los líderes del mañana!</p>
         </div>
         </div>
-
     </div>
   )
 }

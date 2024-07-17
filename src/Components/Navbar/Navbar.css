@@ -20,7 +20,7 @@ nav{
     display: flex;
     position: relative;
     align-items: center;
-    padding: 15px 50px;
+    padding: 25px 50px;
 }
 nav ul {
     width: 1238px;
@@ -30,6 +30,7 @@ nav ul {
     padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
+    padding-left: 15px;
     
 }
 nav li{ 
@@ -41,21 +42,28 @@ nav li{
 
 nav li:hover a{
     color: #92ADA4;
-}
-.nav-link::before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 3px;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #92ADA4;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #92ADA4;
 }
 
-.nav-link:hover:before {
-    visibility: visible;
-    width: 100%;
+
+/*--- media queries --*/
+
+@media (max-width: 1200px) {
+    nav{
+        padding: 15px 0;
+        display: flex;
+    }
+    nav ul{
+        position:fixed;
+        top: 0;
+        right: 0;
+        background: #FFD1B0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+ 
 }
